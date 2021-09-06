@@ -3,6 +3,8 @@
 
 * **email**: nil.ottoman@gmail.com
 * **github**: [R1tsuko](https://github.com/R1tsuko)
+* **discord**: R1tsuko#7055
+* **Telegram** @R1tsuko
 
 # Summary
 
