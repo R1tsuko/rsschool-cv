@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Rsschool-cv-thml</title>
+  </head>
+  <body>
+    <div class="container">
+      <main class="main">
+        <div class="left-col">
+          <figure class="avatar">
+            <img src="images/avatar.jpg" alt="avatar" />
+            <figcaption><h1>Danila Turkin</h1></figcaption>
+          </figure>
+
+          <section class="about">
+            <h2>About me</h2>
+            <p>
+              I'm currently studying at SSAU in Samara. My goal is to become a
+              good software engineer. I have a little experience in frontend
+              development with react.
+            </p>
+          </section>
+
+          <section class="contacs">
+            <h2>Contacts</h2>
+            <ul>
+              <li>
+                <span class="contact-title">github:</span>
+                <a href="https://github.com/R1tsuko" class="link-text"
+                  >R1tsuko</a
+                >
+              </li>
+              <li>
+                <span class="contact-title">email:</span> nil.ottoman@gmail.com
+              </li>
+              <li><span class="contact-title">discord:</span> R1tsuko#7055</li>
+              <li><span class="contact-title">Telegram:</span> @R1tsuko</li>
+            </ul>
+          </section>
+        </div>
+        <div class="right-col">
+          <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML (Basics)</li>
+              <li>CSS (Basics)</li>
+              <li>JavaScript</li>
+              <li>ReactJS, Redux</li>
+            </ul>
+          </section>
+
+          <section class="experience">
+            <h2>Experience</h2>
+            <p>
+              Several training projects,
+              <a href="https://r1tsuko.github.io/soccer-stat" class="link-text"
+                >example</a
+              >
+            </p>
+          </section>
+
+          <section class="education">
+            <h2>Education</h2>
+            <p>
+              Samara State Aerospace University
+              <br />
+              BS in Computer Science in Progress
+              <br />
+              Expected to graduate in 2024
+            </p>
+          </section>
+
+          <section class="english">
+            <h2>English</h2>
+            <p>A2 - B1</p>
+          </section>
+
+          <section class="code-example">
+            <h2>Code example</h2>
+            <pre>
+            <code>
+              function validParentheses(parens) {
+                let ans = 0;
+                for(let e of parens) {
+                  e === '(' ? ++ans : --ans;
+                  if(ans &lt; 0) return false;
+                }
+                return ans === 0;
+              }
+            </code>
+          </pre>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="rsschool-logo">
+            <a href="https://rs.school/js/"
+              ><img src="images/rsschool-logo.svg" alt="rsschool-logo"
+            /></a>
+          </div>
+          <div class="github-logo">
+            <a href="https://github.com/R1tsuko"
+              ><img src="images/github-logo.svg" alt="github-logo"
+            /></a>
+          </div>
+          <div class="creation-year"><h2>2021</h2></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
